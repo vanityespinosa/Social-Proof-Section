@@ -1,6 +1,7 @@
 /************************************************************
   Default Styles / Mobile-first Approach 
 ************************************************************/
+
 /****************************************
   Root Styles
 ****************************************/
@@ -11,7 +12,11 @@
 }
 
 :root {
-  /******Start Colors*****/
+  font-size: 15px;
+
+  /***************
+    Colors
+  ***************/
 
   /* Primary */
   --very-dark-magenta: hsl(300, 43%, 22%);
@@ -21,13 +26,50 @@
   --dark-grayish-magenta: hsl(303, 10%, 53%);
   --light-grayish-magenta: hsl(300, 24%, 96%);
   --white: hsl(0, 0%, 100%);
-
-  /******End Colors*****/
 }
 
 body {
   font-size: 15px;
   font-family: "Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/****************************************
+  Utility Styles
+****************************************/
+
+/****************************************
+  Intro Section Styles
+****************************************/
+#intro {
+  background-image: url("/images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
+}
+#intro div {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+#intro h1 {
+  color: var(--very-dark-magenta);
+  margin: 4rem 2rem 1.25rem 2rem;
+  font-size: 2em;
+}
+#intro p {
+  color: var(--dark-grayish-magenta);
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+}
+
+/****************************************
+  Ratings Section Styles
+****************************************/
+#ratings {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
 }
 
 /****************************************
