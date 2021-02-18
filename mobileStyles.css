@@ -60,6 +60,7 @@ body {
 }
 #intro p {
   color: var(--dark-grayish-magenta);
+  line-height: 25px;
   margin-right: 1.25rem;
   margin-left: 1.25rem;
 }
@@ -68,8 +69,18 @@ body {
   Ratings Section Styles
 ****************************************/
 #ratings {
-  margin-right: 1.25rem;
-  margin-left: 1.25rem;
+  width: 100%;
+}
+#ratings .rating-container {
+  border-radius: 10px;
+  color: var(--very-dark-magenta);
+  background-color: var(--light-grayish-magenta);
+  margin: 0rem 1.25rem 1rem 1.25rem;
+  padding: 0.75rem 0rem;
+  text-align: center;
+}
+#ratings .stars {
+  margin-bottom: 1rem;
 }
 
 /****************************************
