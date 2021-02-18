@@ -87,6 +87,46 @@ body {
 }
 
 /****************************************
+  Reviews Section Styles
+****************************************/
+#reviews {
+  margin-top: 3rem;
+  width: 100%;
+  background-image: url("/images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+}
+#reviews .review-container {
+  border-radius: 10px;
+  color: var(--white);
+  background-color: var(--very-dark-magenta);
+  margin: 0rem 1.25rem 1rem 1.25rem;
+  padding: 2.25rem;
+}
+#reviews .review-container .reviewer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+#reviews .review-container .reviewer img {
+  border-radius: 50%;
+  width: 20%;
+  margin-right: 1.5rem;
+}
+#reviews .review-container .reviewer .reviewer-info {
+  font-size: 13px;
+}
+#reviews .review-container .reviewer .reviewer-info h2 {
+  margin-bottom: 0.4rem;
+}
+#reviews .review-container .reviewer .reviewer-info h3 {
+  color: var(--soft-pink);
+  font-weight: 400;
+}
+#reviews .review-container p {
+  line-height: 25px;
+}
+
+/****************************************
   Footer Styles
 ****************************************/
 .attribution {
